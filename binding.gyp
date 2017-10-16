@@ -11,7 +11,7 @@
         "libargon2/src/opt.c"
       ],
       "include_dirs": ["libargon2/include"],
-      "cflags": ["-march=native", "-pthread", "-Wno-type-limits"],
+      "cflags": ["-march=x86-64", "-pthread", "-Wno-type-limits"],
       "type": "shared_library"
     }
   ]
